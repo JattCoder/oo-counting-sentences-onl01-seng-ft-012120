@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    puts "Hello from #{self}"
+    self.class
   end
 
   def question?
@@ -18,3 +18,4 @@ class String
 
   end
 end
+
