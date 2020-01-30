@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    puts "#{self.class}"
+    puts "#{self.class.to_s}"
   end
 
   def question?
