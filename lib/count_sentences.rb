@@ -18,3 +18,6 @@ class String
 
   end
 end
+
+str = new String.class
+str.sentence?
