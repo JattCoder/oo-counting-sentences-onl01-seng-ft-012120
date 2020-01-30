@@ -1,9 +1,9 @@
 require 'pry'
 
 class String
-  @string = ""
+  attr_accessor :string
   def sentence?
-    return true if self.string.end_with?(".")
+    return true if self.string.ends_with?(".")
     return false
   end
 
