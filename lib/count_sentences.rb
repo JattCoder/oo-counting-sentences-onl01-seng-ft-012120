@@ -1,7 +1,7 @@
 require 'pry'
 
 class String
-  
+
   def sentence?(string)
     return true if self.string.ends_with?(".")
     return false
